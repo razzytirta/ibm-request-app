@@ -1,5 +1,7 @@
 <?php
 
+use App\Livewire\Depo\CreateDepo;
+use App\Livewire\Depo\Depo;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/depo/create', CreateDepo::class);
+Route::get('/depo', Depo::class);

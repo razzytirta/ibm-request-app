@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Permintaan;
 use Illuminate\Http\Request;
 
-class PermintaannController extends Controller
+class PermintaanController extends Controller
 {
     /**
      * Display a listing of the resource.
